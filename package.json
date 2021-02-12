@@ -4,7 +4,7 @@
   "description": "This is a website for the fictional campsites review site NuCamp.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jamesperrin/nucamp-nucampsite"
+    "url": "https://github.com/jamesperrin/nucamp-nucampsite-bootstrap"
   },
   "main": "index.html",
   "scripts": {
@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
