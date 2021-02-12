@@ -12,7 +12,11 @@
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["nucamp", "nucampsite", "bootstrap"],
+  "keywords": [
+    "nucamp",
+    "nucampsite",
+    "bootstrap"
+  ],
   "author": "James Perrin",
   "license": "ISC",
   "devDependencies": {
@@ -20,6 +24,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
