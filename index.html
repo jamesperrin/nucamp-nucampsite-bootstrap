@@ -27,6 +27,9 @@
           <h1>NuCamp</h1>
           <h2>a better way to camp</h2>
         </div>
+        <div class="col-md-4 col-xl-2 mt-4">
+          <a href="#reserveForm" role="button" class="btn btn-info btn-lg text-nowrap" title="Reserve Campsite">Reserve Campsite</a>
+        </div>
       </div>
     </div>
   </header>
@@ -57,6 +60,7 @@
   </nav>
 
   <div class="container">
+
     <div class="row row-content align-items-center">
       <div class="col-sm-4 order-sm-last col-md-3">
         <h2 class="text-sm-right">Discover & Review</h2>
@@ -101,6 +105,46 @@
             <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="row row-content">
+      <div class="col-sm-6 mx-auto">
+        <div class="card">
+          <h3 class="bg-info">Reserve a Campsite</h3>
+        </div>
+        <div class="card-body">
+          <form action="#" id="reserveForm">
+            <div class="row form-group">
+              <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
+              <div class="col">
+                <select name="numCampers" id="numCampers" class="form-control">
+                  <option>Select...</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <label for="date" class="col-sm-6 col-form-label">Date</label>
+              <div class="col">
+                <input type="date" id="date" name="date" placeholder="date" class="form-control" />
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <div class="col">
+                <button type="submit" class="btn btn-primary">Search</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
       </div>
     </div>
   </div>
