@@ -6,7 +6,7 @@ $(function () {
     evt.preventDefault();
   });
 
-  $('.carousel').carousel({ interval: 200 });
+  $('.carousel').carousel({ interval: 2000 });
 
   $('#carouselButton').click(function () {
     if ($('#carouselButton').children('i').hasClass('fa-pause')) {
